@@ -40,4 +40,19 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnToast3" />
 
+    <Button
+        android:id="@+id/btnNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show Notification"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSnackbar" />
+    <Button
+        android:id="@+id/btnCancelNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Notification"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNotification" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
